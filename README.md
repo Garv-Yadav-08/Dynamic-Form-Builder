@@ -1,69 +1,115 @@
-# React + TypeScript + Vite
+# Dynamic Form Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Google Forms-inspired dynamic form builder built using React, TypeScript, and Vite. The application enables users to create, customize, preview, and manage forms through an intuitive interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Dynamic form creation and editing
+- Drag-and-drop field arrangement
+- Live form preview
+- Multiple field types:
+  - Text
+  - Number
+  - Date
+  - Dropdown
+  - Checkboxes
+  - Multiple Choice
+  - Tags
+  - Headers
+  - Sections
+  - Paragraphs
+- Form templates
+- Dark and Light mode
+- Trash management for deleted forms
+- Responsive user interface
+- Short form support
+- Component-based architecture
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React.js
+- TypeScript
+- Vite
+- CSS
+- React Router
+- Local Storage
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📸 Screenshots
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Form Builder
+![Form Builder](./screenshots/form-builder.png)
+
+### Live Preview
+![Live Preview](./screenshots/live-preview.png)
+
+### Trash Management
+![Trash](./screenshots/trash.png)
+
+## 🎯 Key Learnings
+
+Through this project, I gained hands-on experience with:
+
+- React component architecture
+- State management
+- Dynamic rendering
+- TypeScript type safety
+- UI/UX design principles
+- Form validation
+- Responsive web design
+- Building scalable frontend applications
+
+## 🔮 Future Improvements
+
+- User Authentication
+- Database Integration
+- Form Sharing via Links
+- Analytics Dashboard
+- Export Responses (CSV/PDF)
+- Cloud Storage
+- Collaboration Features
+
+## ⚡ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Garv-Yadav-08/My-form-app.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Navigate to the project folder:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+cd My-form-app
 ```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## 👨‍💻 Author
+
+**Garv Yadav**
+
+- LinkedIn: https://linkedin.com/in/YOUR-LINKEDIN-USERNAME
+- GitHub: https://github.com/Garv-Yadav-08
+
+---
+
+⭐ If you like this project, consider giving it a star!
