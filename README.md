@@ -107,7 +107,7 @@ npm run build
 
 **Garv Yadav**
 
-- LinkedIn: https://linkedin.com/in/YOUR-LINKEDIN-USERNAME
+- LinkedIn: https://linkedin.com/in/garv-yadav
 - GitHub: https://github.com/Garv-Yadav-08
 
 ---
