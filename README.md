@@ -37,16 +37,16 @@ A Google Forms-inspired dynamic form builder built using React, TypeScript, and 
 ## 📸 Screenshots
 
 ### Dashboard
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./src/Dashboard.png)
 
 ### Form Builder
-![Form Builder](./screenshots/form-builder.png)
+![Form Builder](./src/Form-Builder.png)
 
 ### Live Preview
-![Live Preview](./screenshots/live-preview.png)
+![Live Preview](./src/Live-Preview.png)
 
 ### Trash Management
-![Trash](./screenshots/trash.png)
+![Trash](./src/Trash.png)
 
 ## 🎯 Key Learnings
 
